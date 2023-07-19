@@ -13,3 +13,15 @@ jobs:
           echo this
           echo is
           echo step2
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1 of job2
+        run: echo this is step1 of job2
+      - name: step2
+        run: |
+          echo this
+          echo is
+          echo step2
+          echo of
+          echo job2
